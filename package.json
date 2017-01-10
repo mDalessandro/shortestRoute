@@ -1,0 +1,29 @@
+{
+  "name": "Shortest Route",
+  "version": "1.0.0",
+  "description": "Program to find the shortest route",
+  "engines": {
+    "node": "6.0.0",
+    "npm": "3.9.5"
+  },
+  "scripts": {
+    "postinstall": "npm run build",
+    "start": "node index.js",
+    "test": "mocha -r mock-local-storage --reporter nyan --compilers js:babel-core/register --require ./specs/TestHelper.js --recursive ./specs",
+    "test:watch": "npm run test -- --watch",
+    "go": "concurrently \"npm run build\" \"nodemon index.js\" ",
+    "build": "webpack --progress --profile --colors --display-error-details --display-cached"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mDalessandro/shortestRoute.git"
+  },
+  "author": "Matthew D'Alessandro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mDalessandro/shortestRoute"
+  },
+  "homepage": "https://github.com/mDalessandro/shortestRoute#readme",
+  "dependencies": {
+  }
+}
