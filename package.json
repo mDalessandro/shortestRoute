@@ -7,12 +7,7 @@
     "npm": "3.9.5"
   },
   "scripts": {
-    "postinstall": "npm run build",
-    "start": "node index.js",
-    "test": "mocha -r mock-local-storage --reporter nyan --compilers js:babel-core/register --require ./specs/TestHelper.js --recursive ./specs",
-    "test:watch": "npm run test -- --watch",
-    "go": "concurrently \"npm run build\" \"nodemon index.js\" ",
-    "build": "webpack --progress --profile --colors --display-error-details --display-cached"
+    "start": "node shortestRoute.js"
   },
   "repository": {
     "type": "git",
