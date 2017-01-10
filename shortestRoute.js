@@ -50,7 +50,25 @@ testing was performed to verify your solution.
  
 */
 
+// input: see above
+// output: a list of cities compromising the shortest route
+// contraints/complexity: 
+// examples: 
+  /*
+  cities:
+    Boston,New York,50
+    Boston,Hartford,25
+    Hartford,New York,35
+    New York,Philadelphia,40
+  */
+  // func(cities, Boston, New York) -> Boston, New York
+  // func(cities, Boston, Philadelphia)  -> Boston, New York, Philadelphia
 
+function shortestRoute(cityList, startingCity, destination) {
+  return undefined;
+};
+
+shortestRoute();
 
 
 
