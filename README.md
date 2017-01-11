@@ -3,10 +3,10 @@
 
 ## Getting started
 
-Here is a short, step-by-step guide to trying out the program:
-1. Start by cloning down the repository to your local computer.
-2. [Installing Dependencies](#installing-dependencies)
-3. Within shortestRoute.js, edit the inputs with the desired data. (Be sure to match the existing data format and types)
+Here is a short, step-by-step guide to trying out the program:  
+1. Start by cloning down the repository to your local computer.  
+2. [Installing Dependencies](#installing-dependencies)  
+3. Within shortestRoute.js, edit the inputs with the desired data. (Be sure to match the existing data format and types)  
 4. Run the start script:
 ```sh
 npm start
